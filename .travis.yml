@@ -11,5 +11,6 @@ install:
 script:
   - npm test
   - echo $TRAVIS_BRANCH
+  - echo $TEST
   - echo $ROOSTER
   - echo "Finished Build"
