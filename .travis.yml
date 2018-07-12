@@ -13,4 +13,5 @@ script:
   - echo $TRAVIS_BRANCH
   - echo $TEST
   - echo $ROOSTER
+  - echo $MODULE_BRANCH
   - echo "Finished Build"
