@@ -10,6 +10,6 @@ install:
 
 script:
   - npm test
-  - echo "Branch: $TRAVIS_BRANCH"
-  - echo "Rooster: $ROOSTER"
+  - echo $TRAVIS_BRANCH
+  - echo $ROOSTER
   - echo "Finished Build"
